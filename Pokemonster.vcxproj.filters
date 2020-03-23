@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Pokemon">
+      <UniqueIdentifier>{2f68ff46-ebd1-4a2b-8ec2-219d8799536b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Pokemon">
+      <UniqueIdentifier>{74c6e468-296b-43e6-8be7-8680022ae037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Pokemon\fire">
+      <UniqueIdentifier>{f206b81e-b20f-4cd0-824d-72c6fcc63639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Pokemon\water">
+      <UniqueIdentifier>{d22237bd-d6b1-41e1-899a-b52ea40a3a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Pokemon\grass">
+      <UniqueIdentifier>{d9a3d70e-628e-42aa-99be-5d2bbebe1ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Pokemon\fire">
+      <UniqueIdentifier>{7ca2ce11-6c2e-41b5-967c-4868982948e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Pokemon\water">
+      <UniqueIdentifier>{25a2b1bc-f666-4111-af6b-c44f83d32594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Pokemon\grass">
+      <UniqueIdentifier>{963391d5-1fc5-4db4-8bb3-926351e1fb1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\monsterball">
+      <UniqueIdentifier>{30126c1d-6e00-4c5c-9414-3dbf78d1cc45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pokemon.cpp">
+      <Filter>소스 파일\Pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="FireTypePokemon.cpp">
+      <Filter>소스 파일\Pokemon\fire</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassTypePokemon.cpp">
+      <Filter>소스 파일\Pokemon\grass</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterTypePokemon.cpp">
+      <Filter>소스 파일\Pokemon\water</Filter>
+    </ClCompile>
+    <ClCompile Include="Charmander.cpp">
+      <Filter>소스 파일\Pokemon\fire</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bulbasaur.cpp">
+      <Filter>소스 파일\Pokemon\grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Squirtle.cpp">
+      <Filter>소스 파일\Pokemon\water</Filter>
+    </ClCompile>
+    <ClCompile Include="Monsterball.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Baseball.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Superball.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Masterball.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Charmeleon.cpp">
+      <Filter>소스 파일\Pokemon\fire</Filter>
+    </ClCompile>
+    <ClCompile Include="Charizard.cpp">
+      <Filter>소스 파일\Pokemon\fire</Filter>
+    </ClCompile>
+    <ClCompile Include="Wartortle.cpp">
+      <Filter>소스 파일\Pokemon\water</Filter>
+    </ClCompile>
+    <ClCompile Include="Blastoise.cpp">
+      <Filter>소스 파일\Pokemon\water</Filter>
+    </ClCompile>
+    <ClCompile Include="Ivysaur.cpp">
+      <Filter>소스 파일\Pokemon\grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Venusaur.cpp">
+      <Filter>소스 파일\Pokemon\grass</Filter>
+    </ClCompile>
+    <ClCompile Include="legend.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemon.h">
+      <Filter>헤더 파일\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="FireTypePokemon.h">
+      <Filter>헤더 파일\Pokemon\fire</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassTypePokemon.h">
+      <Filter>헤더 파일\Pokemon\grass</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterTypePokemon.h">
+      <Filter>헤더 파일\Pokemon\water</Filter>
+    </ClInclude>
+    <ClInclude Include="Charmander.h">
+      <Filter>헤더 파일\Pokemon\fire</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bulbasaur.h">
+      <Filter>헤더 파일\Pokemon\grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Squirtle.h">
+      <Filter>헤더 파일\Pokemon\water</Filter>
+    </ClInclude>
+    <ClInclude Include="Monsterball.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Baseball.h">
+      <Filter>헤더 파일\monsterball</Filter>
+    </ClInclude>
+    <ClInclude Include="Masterball.h">
+      <Filter>헤더 파일\monsterball</Filter>
+    </ClInclude>
+    <ClInclude Include="Superball.h">
+      <Filter>헤더 파일\monsterball</Filter>
+    </ClInclude>
+    <ClInclude Include="Charmeleon.h">
+      <Filter>헤더 파일\Pokemon\fire</Filter>
+    </ClInclude>
+    <ClInclude Include="Charizard.h">
+      <Filter>헤더 파일\Pokemon\fire</Filter>
+    </ClInclude>
+    <ClInclude Include="Wartortle.h">
+      <Filter>헤더 파일\Pokemon\water</Filter>
+    </ClInclude>
+    <ClInclude Include="Blastoise.h">
+      <Filter>헤더 파일\Pokemon\water</Filter>
+    </ClInclude>
+    <ClInclude Include="Ivysaur.h">
+      <Filter>헤더 파일\Pokemon\grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Venusaur.h">
+      <Filter>헤더 파일\Pokemon\grass</Filter>
+    </ClInclude>
+    <ClInclude Include="legend.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

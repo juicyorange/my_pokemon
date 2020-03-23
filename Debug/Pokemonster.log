@@ -1,0 +1,4 @@
+﻿  App.cpp
+c:\users\김태영\documents\visual studio 2015\projects\pokemonster\pokemonster\app.cpp(125): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Pokemonster.vcxproj -> C:\Users\김태영\Documents\Visual Studio 2015\Projects\Pokemonster\Debug\Pokemonster.exe
+  Pokemonster.vcxproj -> C:\Users\김태영\Documents\Visual Studio 2015\Projects\Pokemonster\Debug\Pokemonster.pdb (Full PDB)
